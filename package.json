@@ -4,7 +4,7 @@
    "description": "Personal Web",
    "main": "index.html",
    "scripts": {
-      "start": "sergey",
+      "start": "sergey --output=docs",
       "dev": "sergey --watch"
    },
    "keywords": [
