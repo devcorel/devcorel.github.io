@@ -1,0 +1,21 @@
+{
+   "name": "devcorel.to",
+   "version": "1.0.0",
+   "description": "Personal Web",
+   "main": "index.html",
+   "scripts": {
+      "start": "sergey",
+      "dev": "sergey --watch"
+   },
+   "keywords": [
+      "devcorel",
+      "to",
+      "github",
+      "page"
+   ],
+   "author": "devcorel",
+   "license": "ISC",
+   "dependencies": {
+      "sergey": "^0.0.13"
+   }
+}
