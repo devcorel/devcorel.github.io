@@ -10,7 +10,7 @@
    letter-spacing: 3px;
    position: relative;
    overflow:hidden;
-   transition: all 0.3s ease-in-out;
+   /* transition: all 0.3s ease-in-out; */
 }
 
 .hero-init .not-rain {
@@ -29,6 +29,7 @@
    border-top-left-radius: 70px;
    border-top-right-radius: 130px;
    position: relative;
+   transition: all 0.5s ease-in-out;
    /* width: 466px;
    max-width: auto;
    min-width: auto; */
@@ -70,6 +71,7 @@
    width: 100%;
    position: absolute;
    z-index: -10;
+   transition: background 0.5s ease-in-out;
 }
 
  .hero-init .block-color>div {
@@ -83,7 +85,7 @@
    color: var(--text-color);
    text-align: center;
    text-shadow: 3px 5px 10px #00000085;
-   transition: color 0.5s ease-in-out;
+   transition: color 0.8s ease-in-out;
 }
 
 .hero-init .my-passions{
