@@ -28,9 +28,7 @@ var makeItRain = function () {
          randoHundo +
          's; animation-duration: 0.5' +
          randoHundo +
-         's;"></div><div class="splat ' +
-         randomStrongDrop() +
-         '" style="animation-delay: 0.' +
+         's;"></div><div class="splat" style="animation-delay: 0.' +
          randoHundo +
          's; animation-duration: 0.5' +
          randoHundo +
@@ -48,9 +46,7 @@ var makeItRain = function () {
          randoHundo +
          's; animation-duration: 0.5' +
          randoHundo +
-         's;"></div><div class="splat ' +
-         randomStrongDrop() +
-         '" style="animation-delay: 0.' +
+         's;"></div><div class="splat" style="animation-delay: 0.' +
          randoHundo +
          's; animation-duration: 0.5' +
          randoHundo +
@@ -78,10 +74,5 @@ $('.single-toggle.toggle').on('click', function () {
    $('.single-toggle.toggle').toggleClass('active');
    makeItRain();
 });
-
-function randomStrongDrop() {
-   let random = Math.floor(Math.random() * 2);
-   return random > 0 ? 'strong' : '';
-}
 
 makeItRain();
